@@ -50,11 +50,11 @@
 }
 
 /*HEADER*/
-header {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+.heading {
+  font-family: 'Caveat', cursive;
 }
 
 /*BACKGROUND IMAGE*/
 .background-image {
-    width: 100%;
+  width: 100%;
 }

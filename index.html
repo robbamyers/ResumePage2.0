@@ -10,22 +10,36 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
-        <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-        <script src="myscripts.js"></script>
+        <!--Google Font for Header-->
+        <link href="https://fonts.googleapis.com/css?family=Caveat|Josefin+Sans:300i|Rock+Salt|Shadows+Into+Light&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header>Robbie Myers</header>
-        <img class="background-image" src="Resources/background.jpg" alt="image of wheat field">
+        <header>
+            <div class="container-fluid row">
+                <div class="heading col-xs-3"><h1>Robbie Myers</h1></div>
+                <div class="col-xs-6"></div>
+                <div class="heading col-xs-3"><h1>jr. software engineer</h1></div>
+            </div>
+        </header>
+
+        <!--Wheat picture-->
+        <div class="container-fluid">
+            <img class="background-image" src="Resources/background.jpg" alt="image of wheat field">
+        </div>
+
+        <!--Navigation bar-->
         <nav>
-            <ul>
-                <li>home</li>
-                <li>about</li>
-                <li>projects</li>
-                <li>contact</li>
-            </ul>
+            <div class="container-fluid row">
+                <ul class="unstyleList">
+                    <li class="col-xs-3">home</li>
+                    <li class="col-xs-3">about</li>
+                    <li class="col-xs-3">projects</li>
+                    <li class="col-xs-3">contact</li>
+                </ul>
+            </div>
         </nav>
 
         <div id="home">
@@ -107,8 +121,12 @@
             </div>
         </div>
 
-
-
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="myscripts.js" async defer></script>
     </body>
 </html>
