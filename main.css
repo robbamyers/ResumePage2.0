@@ -49,9 +49,35 @@
     list-style: none;
 }
 
-/*HEADER*/
-.heading {
+.vertical-align {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.addFont {
   font-family: 'Caveat', cursive;
+}
+
+.horizontal-align {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+a:hover {
+  text-decoration: none!important;
+}
+
+a {
+  color: black!important;
+}
+/*HEADER*/
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
 }
 
 /*BACKGROUND IMAGE*/

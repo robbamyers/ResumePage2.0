@@ -19,9 +19,9 @@
         <![endif]-->
         <header>
             <div class="container-fluid row">
-                <div class="heading col-xs-3"><h1>Robbie Myers</h1></div>
+                <div class="heading col-xs-3"><h1 class="addFont">Robbie Myers</h1></div>
                 <div class="col-xs-6"></div>
-                <div class="heading col-xs-3"><h1>jr. software engineer</h1></div>
+                <div class="heading col-xs-3"><h1 class="addFont">jr. software engineer</h1></div>
             </div>
         </header>
 
@@ -31,18 +31,26 @@
         </div>
 
         <!--Navigation bar-->
-        <nav>
+        <nav id="navbar">
             <div class="container-fluid row">
                 <ul class="unstyleList">
-                    <li class="col-xs-3">home</li>
-                    <li class="col-xs-3">about</li>
-                    <li class="col-xs-3">projects</li>
-                    <li class="col-xs-3">contact</li>
+                    <li>
+                        <div class="col-xs-3"><h3 class="horizontal-align text-center"><a class="addFont" href="#home">home</a></h3></div>
+                    </li>
+                    <li>
+                        <div class="col-xs-3"><h3 class="horizontal-align text-center"><a class="addFont" href="#about">about</a></h3></div>
+                    </li>
+                    <li>
+                        <div class="col-xs-3"><h3 class="horizontal-align text-center"><a class="addFont" href="#projects">projects</a></h3></div>
+                    </li>                    
+                    <li>
+                        <div class="col-xs-3"><h3 class="horizontal-align text-center"><a class="addFont" href="#contact">contact</a></h3></div>
+                    </li>
                 </ul>
             </div>
         </nav>
-
-        <div id="home">
+        
+        <div style="padding-top: 50px;" id="home"></div>
             <h2>home</h2>
             <img src="#" alt="profile picture">
             <p>skills</p>
@@ -59,7 +67,7 @@
             </ul>
         </div>
 
-        <div id="about">
+        <div style="padding-top: 50px" id="about">
             <h2>about</h2>
             <h3>Here's what I've been up to since 1992:</h3>
                 <ul class="unstyleList">
@@ -108,10 +116,15 @@
             <button type="button" class="collapsible">resume</button><iframe class="content" src="Resources/Robert_Myers_Resume.pdf" frameborder="0"></iframe>
         </div>
 
-        <div id="projects">
+        <div style="padding-top: 50px;" id="projects">
             <h2>projects</h2>
             <div>
                 <h3>Computer Comparison Model</h3>
+            </div>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsa maxime libero consectetur quos minus aspernatur non amet pariatur architecto dolore voluptatibus numquam, eum at exercitationem commodi sapiente tempora et!
+                </p>
             </div>
             <div>
                 <h3>Project 2</h3>
@@ -119,6 +132,14 @@
             <div>
                 <h3>Project 3</h3>
             </div>
+        </div>
+
+        <div style="padding-top: 50px;" id="contact">
+            <h2>contact</h2>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat asperiores dolore possimus esse sit odio, repellat laborum, aliquam a autem ut suscipit nisi iure officiis nam quisquam ullam exercitationem? Ipsa.
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quos cum vel cupiditate velit debitis non corrupti error distinctio, ipsa quia et minus amet atque in, nisi, excepturi magni expedita?</p>
         </div>
 
         <!-- Latest compiled and minified CSS -->
