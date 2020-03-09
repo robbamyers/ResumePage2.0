@@ -45,6 +45,16 @@
 
 /*GENERAL USE*/
 
+/*Hide scrollbar from Chrome*/
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.example {
+  -ms-overflow-style: none;
+}
+
 .unstyleList {
     list-style: none;
 }
@@ -70,6 +80,35 @@ a:hover {
 a {
   color: black!important;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.padding-left {
+  padding-left: 5%;
+}
+
+.padding-right {
+  padding-right: 5%;
+}
+
+.align-center {
+  align-items: center;
+}
+
 /*HEADER*/
 
 
@@ -83,4 +122,17 @@ a {
 /*BACKGROUND IMAGE*/
 .background-image {
   width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/*PROFILEPIC*/
+#profilepic {
+  width: 40%;
+  border-radius: 1px;
+}
+
+/*NAVBAR*/
+.larger {
+  font-size: 18pt;
 }

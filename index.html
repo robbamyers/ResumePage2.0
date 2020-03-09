@@ -1,81 +1,59 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en" class="no-js">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Robbie Myers|Portfolio</title>
+        <title>Robbie Myers | Portfolio</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="main.css">
         <!--Google Font for Header-->
         <link href="https://fonts.googleapis.com/css?family=Caveat|Josefin+Sans:300i|Rock+Salt|Shadows+Into+Light&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <body class="example">
+     
+
         <header>
-            <div class="container-fluid row">
-                <div class="heading col-xs-3"><h1 class="addFont">Robbie Myers</h1></div>
-                <div class="col-xs-6"></div>
-                <div class="heading col-xs-3"><h1 class="addFont">jr. software engineer</h1></div>
+            <div class="flexbox space-between">
+                <h1 class="addFont padding-left">Robbie Myers</h1>
+                
+                <h1 class="addFont padding-right">jr. software engineer</h1>   
             </div>
         </header>
 
         <!--Wheat picture-->
-        <div class="container-fluid">
+        <div>
             <img class="background-image" src="Resources/background.jpg" alt="image of wheat field">
         </div>
 
         <!--Navigation bar-->
-        <nav id="navbar">
-            <div class="container-fluid row">
-                <ul class="unstyleList">
-                    <li>
-                        <div class="col-xs-3"><h3 class="horizontal-align text-center"><a class="addFont" href="#home">home</a></h3></div>
-                    </li>
-                    <li>
-                        <div class="col-xs-3"><h3 class="horizontal-align text-center"><a class="addFont" href="#about">about</a></h3></div>
-                    </li>
-                    <li>
-                        <div class="col-xs-3"><h3 class="horizontal-align text-center"><a class="addFont" href="#projects">projects</a></h3></div>
-                    </li>                    
-                    <li>
-                        <div class="col-xs-3"><h3 class="horizontal-align text-center"><a class="addFont" href="#contact">contact</a></h3></div>
-                    </li>
-                </ul>
+        <div id="stickyHeader" class="flexbox space-evenly">
+                <a href="#about" class="addFont larger">about</a>
+                <a href="#projects" class="addFont larger">projects</a>
+                <a href="#skills" class="addFont larger">skills</a>
+                <a href="contact" class="addFont larger">contact</a>
             </div>
-        </nav>
-        
-        <div style="padding-top: 50px;" id="home"></div>
-            <h2>home</h2>
-            <img src="#" alt="profile picture">
-            <p>skills</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Salesforce Administration</li>
-                <li>ETL Tools</li>
-                <li>Data Analysis</li>
-                <li>Excel</li>
-                <li>Tableau</li>
-                <li>Python</li>
-                <li>Java</li>
-            </ul>
         </div>
+    
+    
+        <div style="padding-top: 50px;" id="about">
+            <h2 class="addFont padding-left">about</h2>
+        </div>
+        
+        <div class="flexbox space-evenly align-center">
+            
+            
+            <img class="padding-left" id="profilepic" src="Resources/profilepicture2.JPG" alt="profile picture">
+            
 
-        <div style="padding-top: 50px" id="about">
-            <h2>about</h2>
-            <h3>Here's what I've been up to since 1992:</h3>
-                <ul class="unstyleList">
-                    <li><button type="button" class="collapsible">1992</button><div class="content">Born to two Lancaster County lovebirds
-                    </div></li>
+            <div class="padding-right">
+                <ul class="unstyleList flexbox flex-wrap">
+                    <a data-toggle="collapse" href="#1992">1992</a>
+                    <div class="collapse" id="1992">
+                        <p>Born to two Lancaster County lovebirds</p>
+                    </div>
                     <li><button type="button" class="collapsible">1993</button><div class="content">Took my first steps in this world
-                    </div></li>
-                    <li><button type="button" class="collapsible">1995</button> <div class="content">Started talking and haven't stopped since
                     </div></li>
                     <li><button type="button" class="collapsible">1997</button> <div class="content">Won 1st place in the Boy Scouts Pinewood Derby
                     </div></li>
@@ -112,6 +90,25 @@
                     <li><button type="button" class="collapsible">2020</button> <div class="content">I enroll at Penn State and declare my major as Software Engineering
                     </div></li>
                 </ul>
+            </div>
+        </div>
+                skills
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Salesforce Administration</li>
+                    <li>ETL Tools</li>
+                    <li>Data Analysis</li>
+                    <li>Excel</li>
+                    <li>Tableau</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+        
+
+        <div style="padding-top: 50px" id="about">
+            <h2>about</h2>
+            
 
             <button type="button" class="collapsible">resume</button><iframe class="content" src="Resources/Robert_Myers_Resume.pdf" frameborder="0"></iframe>
         </div>
@@ -141,13 +138,9 @@
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quos cum vel cupiditate velit debitis non corrupti error distinctio, ipsa quia et minus amet atque in, nisi, excepturi magni expedita?</p>
         </div>
-
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="myscripts.js" async defer></script>
     </body>
 </html>

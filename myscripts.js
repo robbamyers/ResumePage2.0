@@ -20,17 +20,17 @@ for (i = 0; i < coll.length; i++) {
 window.onscroll = function() {myFunction()};
 
 // Get the header
-var navbar = document.getElementById("navbar");
+var stickyHeader = document.getElementById("stickyHeader");
 
 // Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+var sticky = stickyHeader.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset > sticky) {
-    navbar.classList.add("sticky");
+    stickyHeader.classList.add("sticky");
   } else {
-    navbar.classList.remove("sticky");
+    stickyHeader.classList.remove("sticky");
   }
 }
 
