@@ -136,3 +136,15 @@ a {
 .larger {
   font-size: 18pt;
 }
+
+/*ABOUT*/
+div[id*='date'] {
+  text-align: center;
+}
+
+.aboutsection button {
+  padding: 0;
+  border: none;
+  background: none;
+  outline: 0;
+}
