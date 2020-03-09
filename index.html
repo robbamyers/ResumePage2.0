@@ -30,6 +30,7 @@
         <!--Navigation bar-->
         <div id="stickyHeader" class="flexbox space-evenly">
                 <a href="#about" class="addFont larger">about</a>
+                <a href="#resume" class="addFont larger">resume</a>
                 <a href="#projects" class="addFont larger">projects</a>
                 <a href="#skills" class="addFont larger">skills</a>
                 <a href="contact" class="addFont larger">contact</a>
@@ -37,13 +38,14 @@
         </div>
     
     
-        <div style="padding-top: 50px;" id="about">
-            <h2 class="addFont padding-left">about</h2>
+        <div style="padding-top: 70px;" id="about" class="flexbox space-evenly">
+            <h2 class="addFont  ">about</h2>
         </div>
+        <hr>
         
         <div class="flexbox space-evenly align-center">
             <img class="padding-left" id="profilepic" src="Resources/profilepicture2.JPG" alt="profile picture">
-            <div class="padding-right flexbox flex-wrap space-evenly flex-column addFont aboutsection">
+            <div class="flex-end padding-right flex-fill flexbox flex-wrap space-evenly flex-column addFont aboutsection">
         
                 <button data-toggle="collapse" data-target="#date1992">1992</button>
                 <div id="date1992" class="collapse">
@@ -125,13 +127,13 @@
                     Recruited by Thinkful
                 </div>
 
-                <button data-toggle="collapse" data-target="#date2019">2019</button>
-                <div id="date2019" class="collapse">
+                <button data-toggle="collapse" data-target="#date2019a">2019</button>
+                <div id="date2019a" class="collapse">
                     Thinkful is acquired by Chegg, Inc.
                 </div>
 
-                <button data-toggle="collapse" data-target="#date2019">2019</button>
-                <div id="date2019" class="collapse">
+                <button data-toggle="collapse" data-target="#date2019b">2019</button>
+                <div id="date2019b" class="collapse">
                     Move home to Lancaster, PA
                 </div>
 
@@ -139,10 +141,17 @@
                 <div id="date2020" class="collapse">
                     Attended Penn State University for Software Engineering
                 </div>
+            </div>     
         </div>
-            
+
+        <div style="padding-top: 70px;" id="resume" class="flexbox space-evenly resumesection">
+        <button data-toggle="collapse" data-target="#resumepdf" class="addFont"><h2>resume</h2></button>
         </div>
-                skills
+        <hr>
+            <div class="flexbox space-evenly" style="width: 100%; overflow: hidden;">
+            <iframe class="collapse" style="width: 100%;" id="resumepdf" src="Resources/Robert_Myers_Resume.pdf#scrollbar=0&toolbar=0" type="application/pdf" scrolling="no"></iframe>
+            </div>
+                <p>skills</p>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -157,12 +166,9 @@
                 
         
 
-        <div style="padding-top: 50px" id="about">
-            <h2>about</h2>
+        
             
 
-            <button type="button" class="collapsible">resume</button><iframe class="content" src="Resources/Robert_Myers_Resume.pdf" frameborder="0"></iframe>
-        </div>
 
         <div style="padding-top: 50px;" id="projects">
             <h2>projects</h2>
